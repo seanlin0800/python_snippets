@@ -3,6 +3,9 @@
 Source: https://github.com/mitsuhiko/werkzeug/blob/master/werkzeug/utils.py
 """
 
+# sentinel
+_missing = object()
+
 
 class cached_property(object):
     """A decorator that converts a function into a lazy property.  The
